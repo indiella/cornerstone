@@ -49,7 +49,8 @@
                         {{/if}}
                     </span>
                 {{/if}}
-                {{#if settings.show_product_reviews}}
+                <!-- Disable Write a review link. since disabling in cms does not work - Patrick -->
+                <!-- {{#if settings.show_product_reviews}}
                     <span class="productView-reviewLink">
                         <a href="{{product.url}}{{#if is_ajax}}#write_review{{/if}}"
                            {{#unless is_ajax }}data-reveal-id="modal-review-form"{{/unless}}>
@@ -57,7 +58,7 @@
                         </a>
                     </span>
                     {{> components/products/modals/writeReview}}
-                {{/if}}
+                {{/if}} -->
             </div>
             {{product.detail_messages}}
             
