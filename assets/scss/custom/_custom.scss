@@ -1,0 +1,102 @@
+@media (min-width: 801px) {
+  .header-logo {
+    margin: 15 auto 2rem;
+  }
+}
+
+
+/* Product page image overlap bug fix */  
+@media (min-width: 801px) {
+    .productView-image {
+        min-width: 375px; min-height: 375px;
+    }       
+}
+
+/* Logo margin */  
+@media (min-width: 801px) {
+    .header-logo {
+        margin: 0px !important;
+    }
+}  
+
+/* Carousel margin top */
+.heroCarousel {
+    margin-bottom: 25px !important;
+}
+
+/* Carousel margin bottom */
+.body {
+    margin-bottom: 25px !important;
+}
+
+/* Breadcrumbs margin bottom */
+.breadcrumbs {
+    margin-bottom: 5px !important;
+}
+
+/* Page heading margin bottom */
+.page-heading {
+    margin-bottom: 25px !important;
+}
+
+/* Submenu item width */
+.navPage-subMenu-item {
+    width: 200px !important;
+}
+
+/* Submenu padding */
+.navPage-subMenu-item {
+    padding: 10px !important;
+}
+
+/* Menu padding */
+.navPage-subMenu {
+    padding: 0px !important;
+}
+
+/* Menu alignment */
+@media (min-width: 801px) {
+    .navPages-item {
+    float: none !important;
+    display: inline-block !important;
+    }
+}
+
+
+/* Footer margin top */
+.footer-payment-icons {
+    height: 10 !important;
+    margin-top: 10 !important;
+}
+
+/* Copyright margin bottom */
+.footer-info-col {
+    margin-bottom: 10px !important;
+}
+
+/* fix: sales sash overlap bug - Patrick */
+.sale-flag-sash{
+    left: -25px;
+}
+.card-figure{
+    overflow: hidden;
+}
+.card-img-container::after {
+    padding-bottom: 150%;
+}
+/* Remove underlines on ALL banner links - Patrick */
+.banner a {
+    text-decoration: none;
+}
+
+/* Banner Font size overrides - Patrick */
+@media (max-width: 800px) {
+    .banner span{
+        font-size: 1rem !important;
+    }
+}
+@media (min-width:801px) and (max-width: 1051px) {
+    .banner span{
+        font-size: 1.75rem !important;
+    }
+}
